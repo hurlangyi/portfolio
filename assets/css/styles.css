@@ -172,8 +172,12 @@ a {
 
 a:hover {
   color: var(--neon);
+  /*
   text-decoration-line: underline;
-  text-decoration-style: wavy;
+  text-decoration-style: wavy; */
+  text-decoration: black underline wavy;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
 }
 
 /*
@@ -4381,8 +4385,9 @@ input[type=button].btn-block {
 }
 
 .navbar-active {
-  text-decoration: black underline;
-  text-decoration-thickness: 2px;
+  text-decoration: black underline wavy;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
 }
 
 .card {
